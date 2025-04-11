@@ -1,10 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(238, 238, 66, 0.705);
+  background-size: cover;
+  background-position: center;
+
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
-
+h1 {
+  font-family: 'Bangers', cursive; 
+  font-size: 3rem; 
+  color: #ff6347; 
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+  transition: transform 300ms ease, color 300ms ease;
+}
+h2 {
+  font-family: 'Bangers', cursive; 
+  color: rgb(94, 91, 91)
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,6 +36,41 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+footer{
+      
+    color: rgb(53, 51, 51); 
+  }
+
+}
+footer ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex;
+}
+footer li {
+  display: inline-block; 
+  margin: 0 1rem; 
+}
+footer a {
+  text-decoration: none; 
+  color: rgb(128, 125, 125); 
+  transition: color 0.3s ease; 
+}
+main ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+image {
+  display: flex;
+  margin: 0 1rem; 
+}
+main a {
+  text-decoration: none; 
+  color: rgb(128, 125, 125); 
+  transition: color 0.3s ease; 
 }
 
 @keyframes logo-spin {
@@ -37,6 +92,21 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  6px 6px 12px #727272,
+             -6px -6px 12px #ffffff;
 }
+img {
+  border-radius: 8%;
+  }
+  
+h1:hover {
+  transform: scale(1.1); 
+  color: #ffd700; 
+  text-shadow: 4px 4px 10px rgba(255, 99, 71, 0.8);
+
+  }

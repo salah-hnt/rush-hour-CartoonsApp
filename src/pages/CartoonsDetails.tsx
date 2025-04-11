@@ -40,7 +40,7 @@ export const CartoonsDetails = () => {
           <p>genre : {cartoonsDetails.genre}</p>
           <p> creator : {cartoonsDetails.creator}</p>
           <p>year : {cartoonsDetails.year}</p>
-          
+          <p>id : {cartoonsDetails.id}</p>
         </section>
       ) : (
         <section>This character is not here (yet)</section>

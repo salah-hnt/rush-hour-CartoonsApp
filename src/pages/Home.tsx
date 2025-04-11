@@ -40,7 +40,7 @@ export const Home = () => {
           <li key={`Cartoon-${character.id}`}>
             <Link to={`/Cartoons/${character.id}`}>
               <h2>{character.title}</h2>
-              <img src={character.image} alt={character.title} width="250" />
+              <img src={character.image} alt={character.title} width="200" />
             </Link>
           </li>
         ))}
